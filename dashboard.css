@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --white: #fff;
+    --black: #000; 
+    --lightBulue: #17a;
+    --saffron: #ff9933; /* Saffron orange */
+    --deepRed: #e53935; /* Deep red */
+    --darkGreen: #004d40; /* Dark green */
+    --gold: #ffb300; /* Gold */
+    --lightGray: #f4f4f4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    float: left;
+    margin-bottom: 750px;
+    margin-right: 1250px;
+    
+}
+.logo-sj {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-left: 20px;
+    margin-bottom: 700px;
+    margin-right: 200px;
+    margin-left: 1500px;
+}
+
+.logo {
+    height: 20vh;
+    width: auto;  
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: absolute;
+    width: 750px;
+    height: 450px;
+    background: var(--white);
+    border: 2px solid var(--darkGreen);
+    border-radius: 10px;
+    box-shadow: 0 0 20px var(--black);
+    overflow: hidden;
+}
+
+.wrapper .dashboard-container{
+    padding: 60px;
+}
+
+.dashboard-container .title{
+    font-size: 32px;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-container .button-group{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.button-group .btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--darkGreen);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+    outline: none;
+}
+
+.button-group .btn:hover{
+    background-color: var(--lightBulue);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.dashboard-container .profile-details{
+    display: none;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.dashboard-container .profile-details h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dashboard-container .profile-details p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
