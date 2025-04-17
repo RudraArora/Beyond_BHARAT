@@ -10,6 +10,7 @@ The platform uses the reliable India Post network for delivery, supports real-ti
 
 
 
+
 Key Features:-
 
 Direct Seller-to-Customer Model – No middlemen, no commissions.
@@ -31,6 +32,7 @@ GST registration of vendors.
 
 
 
+
 Technology Stack:-
 
 Frontend: React (MERN Stack)
@@ -42,6 +44,7 @@ Analytics: Hadoop, Power BI
 AI/ML: Generative AI, predictive analytics
 
 
+
 Technical Features:-
 
 Predictive analytics for festive and regional trends.
@@ -50,12 +53,14 @@ End-to-end encryption, tokenization, and 2FA for payment security.
 Scalable cloud infrastructure for growing user and seller base.
 
 
+
 Execution Strategy:-
 
 Partner with Chambers of Commerce and local authorities.
 Launch localized marketing campaigns for onboarding.
 Use AI Chatbots for support.
 Launch Android and iOS mobile apps.
+
 
 
 
@@ -79,6 +84,7 @@ For Indian Diaspora:
 
 
 
+
 References:-
 
 India Post Official Website
@@ -86,6 +92,7 @@ India.gov.in – Indian Diaspora
 MSME Annual Report
 GST Portal
 Bureau of Indian Standards
+
 
 
 
